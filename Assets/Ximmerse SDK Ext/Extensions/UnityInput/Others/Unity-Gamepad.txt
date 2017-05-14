@@ -1,0 +1,10 @@
+JoystickButton0,A
+JoystickButton1,B
+JoystickButton2,X
+JoystickButton3,Y
+JoystickButton10,Start
+JoystickButton11,Back
+JoystickButton8,PrimaryThumb
+JoystickButton9,SecondaryThumb
+JoystickButton4,PrimaryShoulder
+JoystickButton5,SecondaryShoulder

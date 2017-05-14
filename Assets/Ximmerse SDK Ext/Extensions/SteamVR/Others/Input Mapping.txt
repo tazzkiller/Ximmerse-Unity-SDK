@@ -1,0 +1,10 @@
+k_EButton_System,Start
+k_EButton_ApplicationMenu,Menu
+k_EButton_Grip,PrimaryShoulder
+k_EButton_DPad_Left,DpadLeft
+k_EButton_DPad_Up,DpadUp
+k_EButton_DPad_Right,DpadRight
+k_EButton_DPad_Down,DpadDown
+k_EButton_A,A
+k_EButton_SteamVR_Touchpad,PrimaryThumb
+k_EButton_SteamVR_Trigger,PrimaryTrigger

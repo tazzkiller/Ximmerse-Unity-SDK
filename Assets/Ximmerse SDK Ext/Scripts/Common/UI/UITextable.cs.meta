@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ec436381fc0dd0343a22fa2e55e0da02
+timeCreated: 1472793217
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_Go: {instanceID: 0}
+  - m_Text: {instanceID: 0}
+  - m_UIAtlas: {instanceID: 0}
+  - m_Image: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

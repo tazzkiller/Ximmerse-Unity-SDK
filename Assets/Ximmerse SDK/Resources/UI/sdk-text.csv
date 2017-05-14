@@ -1,0 +1,9 @@
+﻿KEY,English,Chinese
+Notice-OutOfRange,Out of play area,超出游玩空间
+ClickTouchpadToContinue,Click Touchpad To Continue,轻点触摸板继续
+UserGuide-00,Do you know?,你造吗?
+UserGuide-01,You can recenter you view and your controllers \nby pressing Home button.,按下任意一个Home键&#44;\n可以重置头显和控制器的角度.
+UserGuide-02,Hold both of your controllers in front of you and point them toward tracking camera. \nYou can recenter your view by pressing Home button on both controllers,双手平举控制器面向摄像头&#44;同时按下\n双手Home键&#44;可重置摄像头角度.
+UserGuide-03,The game will start once you move and\n align you controllers into the same colored area. ,请把两个控制器移动到对应颜色的区域内&#44;\n即可开始游戏.
+UserGuide-04,To get started&#44;aim controllers forward \nand press both Home buttons,请把双手的控制器指向前方&#44;并同时\n按下两个Home键&#44;即可开始游戏.
+UserGuide-05,To get started&#44;You have reset the tracker's location,你已经重置外部跟踪摄像头的位置

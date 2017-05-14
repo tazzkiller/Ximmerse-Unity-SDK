@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &139828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 454460}
+  - 114: {fileID: 11443240}
+  - 114: {fileID: 11405210}
+  m_Layer: 0
+  m_Name: VRDevice-Cardboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454460
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11405210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b56a5bb6994c54f9e5cfb25c1e7b86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  family: GoogleVR
+  trackingOriginType: 0
+  neckPosition: {x: 0, y: 0, z: 0}
+  neckOffset: {x: 0, y: 0, z: 0}
+  isCenterEye: 0
+  methodIsPresent: '[Type].Gvr.Internal.BaseVRDevice.[Method].GetDevice.!=null'
+  methodRefreshRate: 60
+  methodRecenter: '[Type].Gvr.Internal.BaseVRDevice.[Method].GetDevice.[Method].Recenter'
+  androidTargetName: Cardboard
+  androidManifest: {fileID: 4900000, guid: d58d208ecab3b4c68864333c61ffac7b, type: 3}
+  useUnityVR: 0
+--- !u!114 &11443240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40b544b8c3553c40852ae7ad35a9343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrModeEnabled: 1
+  distortionCorrectionEnabled: 1
+  neckModelScale: 1
+  autoUntiltHead: 1
+  UseUnityRemoteInput: 0
+  screenSize: 0
+  viewerType: 1
+  stereoScreenScale: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: androidTargetName
+      value: Cardboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: androidManifest
+      value: 
+      objectReference: {fileID: 4900000, guid: d58d208ecab3b4c68864333c61ffac7b, type: 3}
+    - target: {fileID: 0}
+      propertyPath: family
+      value: GoogleVR
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: methodIsPresent
+      value: '[Type].Gvr.Internal.BaseVRDevice.[Method].GetDevice.!=null'
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: methodRecenter
+      value: '[Type].Gvr.Internal.BaseVRDevice.[Method].Recenter'
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: useUnityVR
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 139828}
+  m_IsPrefabParent: 1

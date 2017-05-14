@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e7de8100cdf3149bf1399b246f66f9, type: 3}
+  m_Name: Keys-Atlas
+  m_EditorClassIdentifier: 
+  m_Sprites:
+  - key: Up
+    value: {fileID: 21300000, guid: 53aec6400a465e246bb1af37f6b29b5d, type: 3}
+  - key: Down
+    value: {fileID: 21300000, guid: 71c41e0b4b990064b8e7bd576e05e297, type: 3}
+  - key: Left
+    value: {fileID: 21300000, guid: a618433c4ed322340bd06150780c5da9, type: 3}
+  - key: Right
+    value: {fileID: 21300000, guid: 1ec989165f43c7145845a93cf7391d4d, type: 3}
+  - key: 
+    value: {fileID: 0}

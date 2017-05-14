@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &107662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481562}
+  - 114: {fileID: 11442172}
+  m_Layer: 0
+  m_Name: ControllerInput Manager(HVR)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &111538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 467200}
+  - 114: {fileID: 11474552}
+  m_Layer: 0
+  m_Name: UnityInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &115948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 466312}
+  - 114: {fileID: 11451946}
+  m_Layer: 0
+  m_Name: X-Hawk & X-Cobra(HVR)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &128926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 472134}
+  - 114: {fileID: 11478662}
+  m_Layer: 0
+  m_Name: XInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &155844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470080}
+  m_Layer: 0
+  m_Name: '--------------------------------'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &466312
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115948}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 481562}
+  m_RootOrder: 0
+--- !u!4 &467200
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 481562}
+  m_RootOrder: 2
+--- !u!4 &470080
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 481562}
+  m_RootOrder: 1
+--- !u!4 &472134
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 481562}
+  m_RootOrder: 3
+--- !u!4 &481562
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 466312}
+  - {fileID: 470080}
+  - {fileID: 467200}
+  - {fileID: 472134}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11442172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e480c919d4caf44f86b0515efdb8b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  m_ControllerDataTxt: {fileID: 4900000, guid: 00baab2769d460b44affd4dab1726f2c, type: 3}
+  m_OnInitialized:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11451946}
+        m_MethodName: Launch
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &11451946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae5a8568e57ff040909d38fc9608daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceName: XHawk-0
+  sensitivity: {x: 1, y: 1, z: 1}
+  trackingSpace: {fileID: 0}
+  anchor: {fileID: 0}
+  anchorPosition: {x: 0, y: 0, z: 0}
+  anchorRotation: {x: 0, y: 0, z: 0}
+  xcobraRotationError: {x: 0, y: 0, z: 0}
+  anchorPrefab: {fileID: 0}
+  overridePlugin: 1
+  buttonRecenter:
+    m_PersistentListeners:
+    - type: 3
+      stringArg: LeftController
+      intArg: 16
+    - type: 3
+      stringArg: RightController
+      intArg: 16
+  controllers:
+  - key: XCobra-0
+    value: 0
+  - key: XCobra-1
+    value: 1
+  - key: VRDevice
+    value: 2
+  dockTransform: {fileID: 0}
+  dockPosition: {x: 0, y: -1, z: 0}
+  docksMaxDistance: 2
+  docks:
+  - {fileID: 127746, guid: f6f7dd6ff21b24446a3fdc2f2cc47ec2, type: 2}
+  - {fileID: 167134, guid: f6f7dd6ff21b24446a3fdc2f2cc47ec2, type: 2}
+  - {fileID: 136936, guid: f6f7dd6ff21b24446a3fdc2f2cc47ec2, type: 2}
+--- !u!114 &11474552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b595e1e627707b248a9c4bdb3599526c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateBySelf: 0
+  maxControllers: 1
+  inputTransforms:
+  - {fileID: 11400000, guid: a1d66b0899135454c8be98f929fc2790, type: 2}
+--- !u!114 &11478662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6e53760ae906046bf9d869cb7a631e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateBySelf: 0
+  maxControllers: 1
+  inputTransforms:
+  - {fileID: 11400000, guid: 1700973ac6046c445b34f90639244c33, type: 2}
+  pluginVersion: 2
+  vibrationNumLevels: 20
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Name
+      value: X-Hawk & X-Cobra(HVR)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: docks.Array.data[0]
+      value: 
+      objectReference: {fileID: 127746, guid: f6f7dd6ff21b24446a3fdc2f2cc47ec2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: docks.Array.data[1]
+      value: 
+      objectReference: {fileID: 167134, guid: f6f7dd6ff21b24446a3fdc2f2cc47ec2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: docks.Array.data[2]
+      value: 
+      objectReference: {fileID: 136936, guid: f6f7dd6ff21b24446a3fdc2f2cc47ec2, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 107662}
+  m_IsPrefabParent: 1

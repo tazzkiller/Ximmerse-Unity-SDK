@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6285b486159851a429ff90ee7c0a5ad5, type: 3}
+  m_Name: Unity-RightController
+  m_EditorClassIdentifier: 
+  maxButtons: 10
+  enumTypeFrom: UnityEngine.KeyCode,UnityEngine.dll
+  buttonMasksFrom: 4a0100004b0100004c0100004d010000540100005501000052010000530100004e0100004f010000
+  enumTypeTo: Ximmerse.InputSystem.DaydreamButton
+  buttonMasksTo: 00100000002000000040000000800000100000002000000040000000800000000001000000020000
+  type: 2
+  priority: 8
+  node: 5
+  LeftThumbstickX:
+    joyNum: 0
+    axis: 0
+    invert: 0
+  LeftThumbstickY:
+    joyNum: 0
+    axis: 1
+    invert: 1
+  RightThumbstickX:
+    joyNum: 0
+    axis: 2
+    invert: 0
+  RightThumbstickY:
+    joyNum: 0
+    axis: 3
+    invert: 1
+  LeftTrigger:
+    joyNum: 0
+    axis: 12
+    invert: 0
+  RightTrigger:
+    joyNum: 0
+    axis: 11
+    invert: 0
+  DpadX:
+    joyNum: 0
+    axis: 4
+    invert: 0
+  DpadY:
+    joyNum: 0
+    axis: 5
+    invert: 1
+  DpadEnumType: Ximmerse.InputSystem.DaydreamButton
+  DpadEnumKeys:
+  - DpadUp
+  - DpadDown
+  - DpadLeft
+  - DpadRight

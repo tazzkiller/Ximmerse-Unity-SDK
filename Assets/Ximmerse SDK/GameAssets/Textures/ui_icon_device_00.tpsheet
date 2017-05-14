@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e9ecc454dd846bdf535ada291fd0ed67:234c1e174775b0ec5c215f16a802441c:d042baa1f2b418e6ed7d4cbb31bc2804$
+#
+:format=40000
+:texture=ui_icon_device_00.png
+:size=128x256
+:pivotpoints=enabled
+
+base_status_error;0;192;64;64;0.5;0.5
+base_status_ready;64;192;64;64;0.5;0.5
+base_status_off;0;128;64;64;0.5;0.5
+controller_status_error;64;128;64;64;0.5;0.5
+controller_status_off;0;64;64;64;0.5;0.5
+controller_status_ready;0;0;64;64;0.5;0.5
